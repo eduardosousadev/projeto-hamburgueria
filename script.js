@@ -21,8 +21,8 @@ let newItem = '';
 const restaurantIsOpen = () => {
     const data = new Date();
     const hora = data.getHours();
-    // return (hora >= 18 && hora <= 23);
-    return !(hora >= 18 && hora <= 23);
+    return (hora >= 18 && hora <= 23);
+    // return !(hora >= 18 && hora <= 23);
 };
 
 // Função para verificar se o restaurante está fechado
